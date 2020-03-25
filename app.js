@@ -1,4 +1,4 @@
-let exulted = false
+let executed = false
 
 const disableEstadao = () => {
 	const paywall = document.querySelector('#paywall-iframe-estadao')
@@ -10,8 +10,8 @@ const disableEstadao = () => {
 		html.style.top = "0"
 		html.style.position = "initial"
 
-		exulted = true
-		!exulted && clearInterval(runFunction)
+		executed = true
+		!executed && clearInterval(runFunction)
 
 		return
 	}
